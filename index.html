@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean AutO - Spécialiste Entretien Automobile</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                
+                <span>Clean Auto</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#accueil" class="nav-link">Accueil</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#tarifs" class="nav-link">Tarifs</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Atelier d'entretien et de mécanique <span class="highlight">toutes marques</span></h1>
+                    <p>Votre spécialiste automobile de confiance a Paris</p>
+                    <div class="hero-features">
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <span>Avec ou sans rendez-vous</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tools"></i>
+                            <span>Toutes marques acceptées</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>Service professionnel</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-phone"></i>
+                            Nous contacter
+                        </a>
+                        <a href="#services" class="btn btn-secondary">
+                            <i class="fas fa-eye"></i>
+                            Nos services
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="imgHeader.jpeg" alt="Atelier Clean Auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Véhicules traités</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5★</div>
+                    <div class="stat-label">Note client moyenne</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24h</div>
+                    <div class="stat-label">Délai moyen</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Toutes marques</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Services</h2>
+                <p>Une gamme complète de services pour l'entretien de votre véhicule</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Lavage Auto -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3>Lavage auto à la main</h3>
+                    <p>Service de lavage professionnel avec trois formules adaptées à vos besoins</p>
+                    <ul class="service-features">
+                        <li>Formule Silver à partir de 69€</li>
+                        <li>Formule Gold à partir de 89€</li>
+                        <li>Formule Premium à partir de 119€</li>
+                        <li>Supplément 20€ pour Monospace/4x4/Utilitaires</li>
+                    </ul>
+                </div>
+
+                <!-- Décalaminage -->
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>Décalaminage à l'hydrogène</h3>
+                    <p>Technologie avancée pour nettoyer votre moteur en profondeur</p>
+                    <ul class="service-features">
+                        <li>À partir de 89€</li>
+                        <li>Amélioration des performances</li>
+                        <li>Réduction de consommation</li>
+                        <li>Prolongation durée de vie moteur</li>
+                    </ul>
+                    <div class="service-badge">Recommandé</div>
+                </div>
+
+                <!-- Autres Services -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Services techniques</h3>
+                    <p>Large gamme de services d'entretien et de réparation</p>
+                    <ul class="service-features">
+                        <li>Diagnostic véhicule</li>
+                        <li>Rénovation optique</li>
+                        <li>Déstickage professionnel</li>
+                        <li>Révision toutes marques</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Avis Clients</h2>
+                <p>Ce que disent nos clients satisfaits</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Service impeccable ! Mon véhicule est comme neuf après le lavage premium. Je recommande vivement."</p>
+                    <div class="testimonial-author">- Youssef D.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Le décalaminage à l'hydrogène a vraiment amélioré les performances de ma voiture. Équipe très professionnelle."</p>
+                    <div class="testimonial-author">- David B.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">★★★★★</div>
+                    <p class="testimonial-text">"Accueil chaleureux, travail soigné et tarifs corrects. Clean Auto est devenu mon garage de référence."</p>
+                    <div class="testimonial-author">- Sophie M.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="tarifs" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos Tarifs Lavage</h2>
+                <p>Trois formules pour répondre à tous vos besoins</p>
+            </div>
+
+            <div class="pricing-table">
+                <div class="pricing-header">
+                    <div class="service-column">Services</div>
+                    <div class="price-column silver">
+                        <div class="plan-name">Silver</div>
+                        <div class="plan-price">69€</div>
+                    </div>
+                    <div class="price-column gold">
+                        <div class="plan-name">Gold</div>
+                        <div class="plan-price">89€</div>
+                    </div>
+                    <div class="price-column premium">
+                        <div class="plan-name">Premium</div>
+                        <div class="plan-price">119€</div>
+                    </div>
+                </div>
+
+                <div class="pricing-section">
+                    <div class="section-title">INTÉRIEUR</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Aspiration des poussières</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Nettoyage des vitres</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Rénovation des plastiques</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Désinfection habitacle</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Coffre</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Parfum habitacle</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Parfum des sièges</div>
+                    <div class="excluded">✗</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-section">
+                    <div class="section-title">EXTÉRIEUR</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Prélavage carrosserie</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Lavage carrosserie</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Jantes</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Séchage</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Mousse active</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Contour de porte</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Pneus brillants</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Cire de finition</div>
+                    <div class="excluded">✗</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                </div>
+
+                <div class="pricing-row">
+                    <div class="service-name">Dégraissage et Démoustiquage</div>
+                    <div class="excluded">✗</div>
+                    <div class="excluded">✗</div>
+                    <div class="included">✓</div>
+                </div>
+            </div>
+
+            <div class="pricing-note">
+                <p><i class="fas fa-info-circle"></i> L'état particulier d'un véhicule peut nécessiter un devis personnalisé</p>
+                <p><i class="fas fa-truck"></i> Supplément de 20€ pour Monospace, 4x4 et Utilitaires</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Décalaminage Detail -->
+    <section class="decalaminage-detail">
+        <div class="container">
+            <div class="detail-content">
+                <div class="detail-text">
+                    <h2>Décalaminage à l'hydrogène</h2>
+                    <h3>Les avantages de cette technologie révolutionnaire</h3>
+                    <ul class="advantages-list">
+                        <li><i class="fas fa-chart-line"></i> Amélioration des performances du moteur</li>
+                        <li><i class="fas fa-gas-pump"></i> Réduction de la consommation de carburant</li>
+                        <li><i class="fas fa-shield-alt"></i> Prolongation de la durée de vie du moteur</li>
+                        <li><i class="fas fa-leaf"></i> Réduction des émissions polluantes</li>
+                        <li><i class="fas fa-tachometer-alt"></i> Meilleure réactivité du véhicule</li>
+                        <li><i class="fas fa-tools"></i> Prévention des pannes coûteuses</li>
+                    </ul>
+                    <div class="price-tag">
+                        <span>À partir de</span>
+                        <strong>89€</strong>
+                    </div>
+                </div>
+                <div class="detail-image">
+                    <img src="decalaminage.jpg" alt="Décalaminage à l'hydrogène" class="zoomable">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nous Contacter</h2>
+                <p>Prenez rendez-vous ou venez directement nous voir</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>01 XX XX XX XX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>Paris (75)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horaires</h3>
+                            <p>Avec ou sans rendez-vous</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.png" alt="Clean Auto 77">
+                        <span>Clean Auto</span>
+                    </div>
+                    <p>Votre spécialiste automobile de confiance</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Lavage auto</li>
+                        <li>Décalaminage</li>
+                        <li>Diagnostic</li>
+                        <li>Révision</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>Paris (75)</li>
+                        <li>01 XX XX XX XX</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Clean Auto. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script>
+        // Navigation mobile
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Lightbox
+        document.addEventListener('DOMContentLoaded', function() {
+            const zoomables = document.querySelectorAll('.zoomable');
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const closeLightbox = document.querySelector('.close-lightbox');
+            
+            zoomables.forEach(function(img) {
+                img.style.cursor = 'pointer';
+                img.addEventListener('click', function() {
+                    lightbox.style.display = 'flex';
+                    lightboxImg.src = this.src;
+                });
+            });
+            
+            closeLightbox.addEventListener('click', function() {
+                lightbox.style.display = 'none';
+            });
+            
+            lightbox.addEventListener('click', function(e) {
+                if (e.target === lightbox) {
+                    lightbox.style.display = 'none';
+                }
+            });
+            
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && lightbox.style.display === 'flex') {
+                    lightbox.style.display = 'none';
+                }
+            });
+        });
+
+        // Active navigation
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
